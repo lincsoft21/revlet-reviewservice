@@ -1,0 +1,25 @@
+schema {
+  query: Query
+  mutation: Mutation
+}
+
+type Query {
+  getProperty(id: !ID): Property 
+}
+
+type Property {
+  id: ID!
+  dataSelector: String!
+  postcode: String!
+  streetName: String!
+  overallRating: Int
+}
+
+type Mutation {
+  createProperty(
+    id: String!
+    dataSelector: String!
+    postcode: String!
+    streetName: String!
+  ): Property
+}
