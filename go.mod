@@ -1,4 +1,4 @@
-module reviewservice
+module revlet-reviewservice
 
 go 1.17
 

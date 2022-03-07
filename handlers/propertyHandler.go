@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"github.com/lnsft/revlet.reviewservice/models"
+	"github.com/lnsft/revlet-reviewservice/models"
 )
 
 func getProperties() error {
